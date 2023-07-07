@@ -1,6 +1,4 @@
-
-
-    for ( let i = 1; i <= 62; i++) {
+for ( let i = 1; i <= 62; i++) {
         const url = `https://pokeapi.co/api/v2/berry/${i}`;
         fetch(url)
         .then((res) => res.json())
